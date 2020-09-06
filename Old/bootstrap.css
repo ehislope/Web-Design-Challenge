@@ -14,53 +14,61 @@ html {
 
 body {
   margin: 0;
+  background:rgb(165, 146, 157)
 }
 
-article,
+/* article,
 aside,
 footer,
 header,
 nav,
 section {
   display: block;
-}
+} */
 
 h1 {
-  font-size: 2em;
+  font-size: 15em;
   margin: 0.67em 0;
   background: rgb(165, 146, 157);
-}
-
-figcaption,
+  ;
+  div {
+    background:rgb(165, 146, 157)
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+  }
+/* figcaption,
 figure,
 main {
   display: block;
-}
+} */
 
-figure {
+/* figure {
   margin: 1em 40px;
-}
+} */
 
-hr {
+/* hr {
   -webkit-box-sizing: content-box;
           box-sizing: content-box;
   height: 0;
   overflow: visible;
-}
 
-pre {
+} */
+/* pre {
   font-family: monospace, monospace;
   font-size: 1em;
-}
+} */
 
-a {
+/* a {
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
-}
+} */
 
 a:active,
 a:hover {
   outline-width: 0;
+  background:rgb(165, 146, 157)
 }
 
 abbr[title] {
