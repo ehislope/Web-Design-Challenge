@@ -1,37 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-	<script src="https://kit.fontawesome.com/f348a630e4.js" crossorigin="anonymous"></script>
-    <title>Bootstrap 4, from LayoutIt!</title>
+ <head>
+     <meta charset="utf-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+	 <script src="https://kit.fontawesome.com/f348a630e4.js" crossorigin="anonymous"></script>
+     <title>Latitude</title>
 
-    <meta name="description" content="Source code generated using layoutit.com">
-	<meta name="author" content="LayoutIt!">
-    <link href="Resources/CSS/landing_bootstrap.min.css" rel="stylesheet">
-    <link href="Resources/CSS/style.css" rel="stylesheet">
-
+     <meta name="description" content="Source code generated using layoutit.com">
+	 <meta name="author" content="LayoutIt!">
+     <link href="Resources/CSS/landing_bootstrap.min.css" rel="stylesheet">
+     <link href="Resources/CSS/style.css" rel="stylesheet">
+ </head>
   <body>
 
 	<div class="container-fluid">
 	<div class="row">
 		<div class="col-md-12">
 			<div class="topnav" id="myTopnav">
-				<a href="#home" class="active">Home</a>
-				<a href="#news">News</a>
-				<a href="#contact">Contact</a>
+				<a href="index.html" class="active">Home</a>
+				<a href="#">Comparison</a>
+				<a href="#contact">Data</a>
 				<div class="dropdown">
-				  <button class="dropbtn">Dropdown
-					<i class="fa fa-caret-down"></i>
-				  </button>
-				  <div class="dropdown-content">
-					<a href="#">Link 1</a>
-					<a href="#">Link 2</a>
-					<a href="#">Link 3</a>
-				  </div>
+				   <button class="dropbtn">Plots
+					 <i class="fa fa-caret-down"></i>
+				   </button>
+				   
+				   <div class="dropdown-content">
+					 <li><a href="Resources/HTML/cloudiness.html">Latitude vs. Cloudiness</a></li>
+					 <li><a href="Resources/HTML/humidity.html">Latitude vs. Humidity</a></li>
+					 <li><a href="Resources/HTML/temp.html">Latitude vs. Tempurature</a></li>
+					 <li><a href="Resources/HTML/wind.html">Latitude vs. Windspeed</a></li>
+				   </div>
 				</div>
-				<a href="#about">About</a>
 				<a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
 			  </div>
 
@@ -39,7 +40,7 @@
 				<div class="col-md-6">
 					<div class="jumbotron">
 						<h2>
-							Hello, world!
+							Latitude Project Summary
 						</h2>
 						<p>
 							This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content. Use it as a starting point to create something more unique.

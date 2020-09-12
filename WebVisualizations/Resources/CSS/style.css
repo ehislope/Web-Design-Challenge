@@ -24,7 +24,7 @@ body {margin:0;font-family:Arial
   
   /* Add an active class to highlight the current page */
   .active {
-    background-color: #4CAF50;
+    background-color: rgb(165, 146, 157);
     color: white;
   }
   
@@ -35,7 +35,7 @@ body {margin:0;font-family:Arial
   
   /* Dropdown container - needed to position the dropdown content */
   .dropdown {
-    float: left;
+    float: right;
     overflow: hidden;
   }
   
