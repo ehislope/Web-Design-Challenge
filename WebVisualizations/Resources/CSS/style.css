@@ -7,6 +7,10 @@ body {margin:0;font-family:Arial
 h1{
   color: rgb(165, 146, 157);
 }
+h3{
+  text-align: center;
+  color: rgb(165, 146, 157);
+}
 /* navbar code: https://www.w3schools.com/howto/howto_js_responsive_navbar_dropdown.asp */
 /* Add a black background color to the top navigation */
 .topnav {
