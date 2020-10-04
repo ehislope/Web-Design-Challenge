@@ -13,11 +13,12 @@ body {margin:0;font-family:Arial
   height: 1in;
   text-align: center;
   color: rgb(128 115 152);
- }
+}
 p {
   text-align: center;
   color: #333;
 }
+
 h3{
   text-align: center;
   color: rgb(128 115 152);
@@ -106,8 +107,9 @@ h3{
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
 .topnav, a:hover .dropdown:hover .dropbtn {
-  background-color: #555);
+  background-color: #555;
 }
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {
@@ -141,6 +143,7 @@ h3{
     text-align: left;
   }
 }
+
   .tg  {border-collapse:collapse;border-spacing:0;}
   .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
   overflow:hidden;padding:10px 5px;word-break:normal;}
